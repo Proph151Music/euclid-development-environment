@@ -42,7 +42,7 @@ check_if_github_token_is_valid() {
       printf "Updated value for GITHUB_TOKEN is: \033[32m$GITHUB_TOKEN\033[0m"
       check_if_github_token_is_valid
     else
-      exit 1
+      exit
     fi
   fi
 }
